@@ -1,4 +1,4 @@
-pipeline {
+pipeline  {
   agent any
   environment {
     PRE_PROD_INVENTORY = "aws_preprod"
