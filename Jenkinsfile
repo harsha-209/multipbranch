@@ -5,7 +5,7 @@ pipeline  {
     STAGING_INVENTORY = "aws_staging"
     DEVELOPMENT_INVENTORY = "old_staging"
     PRE_PRODUCTION_BRANCH = /^release\/.*/
-    STAGING_BRANCH = "integration"
+    STAGING_BRANCH = "main"
     DEV_BRANCH = "cicd_dev"
     INVENTORY_NAME = """${
                 BRANCH_NAME == DEV_BRANCH ? DEVELOPMENT_INVENTORY : 
